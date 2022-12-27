@@ -1,0 +1,61 @@
+.network {
+  width: 237px;
+  position: absolute;
+  right: -15px;
+  top: 123px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  &-box {
+    width: 237px;
+    height: 66px;
+    background: linear-gradient(120.19deg, rgba(80, 129, 185, 0.3) -14.4%, rgba(63, 110, 164, 0.129) 107.46%);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    right: -25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+    &:hover {
+      left: 0;
+      background: linear-gradient(120.19deg, #5081b9 -14.4%, rgba(63, 110, 164, 0.43) 107.46%);
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+    &-item {
+      padding-left: 18px;
+      padding-right: 14px;
+    }
+    &-item1 {
+      padding-right: 14px;
+    }
+    &-content {
+      width: 100%;
+      &-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 162.7%;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+      }
+      &-number {
+        display: flex;
+        width: 45px;
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+        &-decs {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 162.7%;
+          display: flex;
+          align-items: center;
+          color: #ffffff;
+        }
+        &-icon {
+          width: 10px;
+        }
+      }
+    }
+  }
+}
